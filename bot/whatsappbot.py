@@ -7,10 +7,10 @@ from selenium.webdriver.common.keys import Keys
 # Navegar até o Whatsapp Web
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://web.whatsapp.com/')
-time.sleep(30)
+time.sleep(10)
 # Definir contatos/grupos e mensagem a ser enviada
 contatos = ['@contato'] 
-mensagem = 'Mensagem desejada'
+mensagem = 'mensagem desejada'
 # Buscar contatos/grupos 
 
 
